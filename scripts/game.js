@@ -32,7 +32,9 @@ let randomL;
 let end = false;
 // score
 let score = 0;
-localStorage.setItem("highscore", 0)
+console.log(localStorage.getItem("highscore"))
+if (localStorage.getItem("highscore") == null)
+    localStorage.setItem("highscore", 0)
 
 // =========================================== otazky ================================== //
 const questions = [
