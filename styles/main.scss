@@ -1,0 +1,90 @@
+@import "./variables";
+@import "./buttons";
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/*
+===============
+ global styles
+===============
+*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nova Square', cursive;
+}
+body{
+    background-color: $bodyBg;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 680px) {
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+/*
+=============
+    index
+=============
+*/
+/*---header---*/
+.indexHeader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        text-align: center;
+        margin-top: $headerMt;
+    }
+}
+/*---main---*/
+.indexMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .controls{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        margin-top: 2.5em;
+        .btn{
+            width: 100%;
+        }
+    }
+    .btn-secondary i{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .indexMain{
+        margin-top: 5em;
+        margin-inline: 5%;
+        h1{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+    }
+    .indexHeader{
+        margin-inline: 5%;
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+}
