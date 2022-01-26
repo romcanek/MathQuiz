@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,GAAG;EACZ,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAWtB;;AAhBD,AAMI,cANU,CAMV,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;CACrB;;AARL,AASI,cATU,CASV,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,GAAG;CACf",
-    "sources": [
-        "highscores.scss"
-    ],
-    "names": [],
-    "file": "highscores.css"
-}
